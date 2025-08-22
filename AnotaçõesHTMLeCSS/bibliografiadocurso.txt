@@ -1,0 +1,19 @@
+    BIBLIOGRAFIA
+
+DIGITAL:
+- Material de apoio em github.com/gustavoguanabara
+- Referência MDN da Mozilla__português
+- Referência oficial: W3C Standarts__inglês
+- WHATWAG Living Standart__inglês
+- W3Schools__inglês
+
+FÍSICA:
+- HTML5 - Mark Pilgrim
+- Flexbox in CSS - Estelle Weyl
+- CSS - Eric Meyer
+- Grid Layout in CSS - Eric Meyer
+livros menos técnicos:
+- HTML5 e CSS3 - Elizabeth Castro e Bruce Hyslop
+- HTML & CSS - Jon Duckett
+- HTML e CSS - Elizabeth Robson e Eric Freeman
+- Crie seu própio site - Nate Cooper e Kim Gee
