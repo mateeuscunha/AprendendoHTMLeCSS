@@ -1,0 +1,30 @@
+    HISTÓRIA DA INTERNET
+A Internet vem da Apanet - rede criada durante a guerra fria para o manejo de dados dos EUA.
+Para ver a conexão mundial: www.submarinecablemap.com
+
+-Como ela funciona?
+Os computadores funcionam com uma representação binária de dados: zeros e uns. 
+Essa representação, em inglês: binary digit, é resumida em: "BIT"
+Um conjunto de oito bits(8 zeros ou 8 uns, mesclados) é a mínima representação de um dado, que pode ser chamado de "BYTE".
+Exemplo: A = 01000001
+Isso vem da tabela de representação de código multibyte UTF-8
+8 bit = 1 byte
+1024 bytes = 1 KB
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
+
+MB != Mb
+MB = megabytes - mais usados para armazenamento
+Mb = megabits - mais usado para transmissão
+
+-Como nos conectamos? 
+Nós acessamos a internet, como clientes, através do nosso computador. O computador deve estar conectado à uma rede que, por sua vez, normalmente, está conectada no telefone ou sistema de televisão da casa.
+Contudo, quando fazemos conexão entre o computador e esse sitema - telefone ou TV - o computador utiliza ondas quadradas - bits - como sinais, já o outro sistema utiliza ondas senoidais. Logo, é necessário transforma uma onda em outra: modulação (quadrada para senoidal, envio de dados) e demodulação (senoidal para quadrada, recepção de dados). Daí vem o nome do aparelho: modem.
+
+O IP é o número que identifica um servidor - muda a todo momento.
+O DNS - sistema de nome de domínio - é como se fosse a agenda telefonica para o IP, ao inves de acessar um monte de números, apenas colocamos o nome do site que queremos entrar, por exemplo: instagram.com.
