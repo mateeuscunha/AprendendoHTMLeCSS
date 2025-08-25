@@ -1,0 +1,18 @@
+    DOMÍNIO E HOSPEDAGEM
+
+Domínio: nome único, pago anualmente, varios TLDs(.com.org.br).
+Hospedagem: espaço para armezanar arquivos, pago mensalmente, memória, recuros, espaço.
+
+URL(uniform recourse locator - recurso de localização) 
+
+www.github.com/gustavoguanabara (URL)
+github.com (domínio)
+.com(TLD, top level domain) --- gtld e cctld: genericas(.org ou.edu) e country(.br ou .eua) 
+www (sub-domínio)
+/ (separa o caminho do resto)
+gustavoguanabara(caminho)
+
+exemplo: gustavoguanabara.github.io
+github.io(domínio)
+.io (gTLD)
+gustavoguanabara(sub-domínio)
