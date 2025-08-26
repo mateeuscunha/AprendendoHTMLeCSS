@@ -1,0 +1,33 @@
+        AS DIFERENÇAS ENTRE A HTML E AS CSS
+
+"Eu programo em HTML e CSS" não está correto, pois não são linguagens de programação.
+"Eu desenvolvo em HTML e CSS" - OK!
+HTML = HyperText Markup Language
+CSS = Cascading Style Sheets
+
+A linguagem em HTML é focada em conteúdo - texto, imagem, vídeo, tabelas.
+O CSS foca no design - cor, posição, tamanho.
+O JavaScript é focado na interatividade - menus, animações, pop-ups, validações.
+
+Conteúdo em HTML: <h1>Exemplo de título</h1>
+                <p>Exemplo de parágrafo</p>
+                <img src="foto.png" alt="Exemplo de foto">
+
+*src e alt - parâmetros
+*foto.png e Exemplo de foto - valores
+*"<h1> é tag e "Exemplo de título" é o conteúdo.
+
+
+
+Estilo em CSS: h1 {
+    font-family: Arial;
+    font-size: 20pt;
+    color: blue;
+}
+
+
+*h1 é o seletor
+*font-family, font-size e color são declarações
+*color é propriedade e blue é valor
+
+O navegador que pega o código do HTML e CSS e transforma em recurso visual.
