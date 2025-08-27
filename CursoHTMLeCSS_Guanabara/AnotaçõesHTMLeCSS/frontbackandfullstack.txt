@@ -1,0 +1,6 @@
+        FRONT-END, BACK-END E FULL STACK
+
+client-side developer === desenvolvedor front-end (html,css,js)
+server-side developer === desenvolvedor back-end (php, js, csharp, python, ruby, java)
+
+back-end + front-end = full stack
