@@ -1,0 +1,6 @@
+    Bons sites para fotos para livre uso
+- Unsplash
+- Pexels
+
+Editor de imagens open source:
+- GIMP
