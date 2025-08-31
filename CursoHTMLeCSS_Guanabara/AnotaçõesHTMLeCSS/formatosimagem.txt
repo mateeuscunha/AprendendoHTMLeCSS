@@ -1,0 +1,5 @@
+    FORMATOS DE IMAGEM
+Para web, quase sempre .jpg ou .png
+
+O jpg foi criado em 1983 e consegue compactar uma imagem. Ele não salva todos os pontos. Uma imagem é um conjunto de pontos.
+Já o pnj é de 1996 e foi criado para substituir o gif. Permite transparencia.
