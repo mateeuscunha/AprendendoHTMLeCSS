@@ -14,5 +14,19 @@
         <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
         <img src="images/foto-g.png" alt="Imagem flexível">
     </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reporduzir áudios em HTML5.</p>
+    <audio src="midia/ontheflipmusic.mp3" controls autoplay></audio> <!--O parâmetro controls aciona o controlador, o auto play liga sozinho-->
+    <!--Formatos: MP3, WAV e OGG-->
+
+    <audio preload="auto" controls> 
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!--os tipos estao no pdf-->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!--evitar-->
+        <p>Infelizmente seu navegador não consegue reprouzir áudio.
+            <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a>
+        </p>
+    </audio>
 </body>
 </html>
