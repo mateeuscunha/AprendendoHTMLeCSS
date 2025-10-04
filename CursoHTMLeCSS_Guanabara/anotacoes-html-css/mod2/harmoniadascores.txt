@@ -1,0 +1,20 @@
+    HARMONIA DAS CORES
+Cores primárias: amarelo, vermelho e azul.
+Cores secundárias: laranja, violeta e verde.
+Cores terciárias: amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado.
+
+Cores frias - lado esquerdo do ciclo cromático.
+Cores quentes - lado direito do ciclo cromático.
+
+Para escolher a paleta do site: de 3 a 5 cores.
+
+> Cores complementares: Contrárias no ciclo cromático, exemplo: violeta com amarelo.
+> Cores análogas: Não têm contraste entre elas, são as cores ao lado no ciclo.
+> Cores análogas relacionadas: Duas cores vizinhas, pula uma cor e pega a próxima.
+> Cores intercaladas: Pega uma, pula a outra no ciclo e pega a próxima.
+> Cores triádicas: Pula três cores. Coincide com as cores primárias ou secundárias.
+> Cores em quadrado: Pula duas cores.
+> Cores tetrádicas: Pega uma cor, sua complementar, pega outra que não tem haver e sua complementar. Forma retângulo.
+> Monocromia: Pega uma só e modifica sua saturação e luminosidade.
+
+VOltar no vídeo - Harmonia das cores do curso em vídeo.
