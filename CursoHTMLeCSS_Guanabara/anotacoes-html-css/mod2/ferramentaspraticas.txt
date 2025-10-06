@@ -1,0 +1,4 @@
+    FERRAMENTAS PARA AUXILIAR NA ESCOLHA DA PALETA
+> Adobe Colors: Dá pra criar a paleta e extrair cores mediante upload da imagem.
+> Paletton: Esse, inclusive, cria uma prévia de site para ver se as cores fazem sentido.
+> Coolors: Também monta paletas.
