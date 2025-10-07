@@ -2,3 +2,7 @@
 > Adobe Colors: Dá pra criar a paleta e extrair cores mediante upload da imagem.
 > Paletton: Esse, inclusive, cria uma prévia de site para ver se as cores fazem sentido.
 > Coolors: Também monta paletas.
+
+    PARA CAPTURAR CORES
+- tirar print e colocar no GIMP ou adobe color -- que é ruim
+- usar o plugin do chrome colorzilla 
