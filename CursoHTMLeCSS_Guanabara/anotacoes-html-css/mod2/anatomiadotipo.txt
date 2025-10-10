@@ -1,0 +1,11 @@
+    ANATOMIA DO TIPO
+Todas as fontes se baseiam no "x" minúsculo. Altura x, altura das maiúsculas, altura descendente, altura ascendente, e o corpo.
+
+Serifa é o pézinho do A, em algumas fontes, por exemplo.
+
+Componentes anatômicos geométricos: Hastes, filetes (unem duas hastes), arco(une duas hastes), esporão, vértice, terminal.
+Componentes corporais: Braço, perna, pé, espinha, barriga, olho, orelha, cauda
+
+Fonte é o conjunto de todos os glifos.
+
+Categoria de fontes: serifadas, sans-serif (sem serifa), monoespaçada, handwriting, display (comemorativas).
