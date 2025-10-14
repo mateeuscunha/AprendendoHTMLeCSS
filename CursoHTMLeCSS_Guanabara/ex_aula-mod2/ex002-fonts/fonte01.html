@@ -6,7 +6,7 @@
     <title>Fontes em CSS</title>
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif; /*Web safe font combinations - W3schools*/ 
+            font-family: "Work Sans", Arial, Helvetica, sans-serif; /*Web safe font combinations - W3schools*/ 
             /* 
             
             Medidas absolutas
@@ -17,6 +17,21 @@
             
             */ 
             font-size: 1em; /*1em ou 16px é o tamanho normal da fonte.*/
+            font-weight: bold; /*Negrito*/
+            font-style: italic; /*Itáico*/
+            text-decoration: underline; /*Sublinhado*/
+        }
+        h1 {
+            /*
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            /* shorthand font 
+            -> font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em Arial, sans-serif;
         }
         </style>
 </head>
