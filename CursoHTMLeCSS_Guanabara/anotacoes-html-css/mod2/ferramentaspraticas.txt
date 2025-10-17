@@ -4,5 +4,5 @@
 > Coolors: Também monta paletas.
 
     PARA CAPTURAR CORES
-- tirar print e colocar no GIMP ou adobe color -- que é ruim
-- usar o plugin do chrome colorzilla 
+> tirar print e colocar no GIMP ou adobe color -- que é ruim
+> usar o plugin do chrome colorzilla 
