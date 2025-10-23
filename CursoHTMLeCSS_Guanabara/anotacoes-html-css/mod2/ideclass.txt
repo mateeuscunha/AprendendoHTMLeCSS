@@ -1,0 +1,3 @@
+    Quando usar o id e o class?
+
+Só pode usar o ID uma vez, já o class pode várias
