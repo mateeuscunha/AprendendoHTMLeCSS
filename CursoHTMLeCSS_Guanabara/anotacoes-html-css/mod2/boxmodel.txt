@@ -1,0 +1,14 @@
+    Caixas
+altura da caixa - height
+largura da caixa - width
+borda da caixa - border
+espaço entre o conteúdo e a borda - padding
+espaço externo, depois da borda - margin
+contorno, por cima da borda - outline
+
+    Há dois tipos de caixa:
+box-level - sempre se inicia em uma linha nova e ocupa a largura total da tela (100% do view-port)
+    ex: div, h1 - h6, p, main, header, nav, article, aside, footer, form, video
+
+inline-level - dentro da linha, só ocupa o tamanho que precisa
+    ex: span, a, code, small, strong, em, sup - sub, label, button, input
