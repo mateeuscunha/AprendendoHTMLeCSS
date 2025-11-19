@@ -25,3 +25,15 @@ nav > a {
     text-decoration: none;
     padding: 10px;
 }
+
+h4 {
+    background-color: green;
+    color: white;
+    border-radius: 10px 0px;
+    padding: 10px;
+}
+
+section#extra {
+    background-color: lightgreen;
+    border-radius: 10px;
+}
