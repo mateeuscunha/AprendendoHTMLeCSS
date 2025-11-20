@@ -37,3 +37,16 @@ section#extra {
     background-color: lightgreen;
     border-radius: 10px;
 }
+
+iframe {
+    width: 100%;
+    border-width: 10px;
+    border-style: solid; 
+    border-color: green;
+}
+
+footer {
+    background-color: darkgreen;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
