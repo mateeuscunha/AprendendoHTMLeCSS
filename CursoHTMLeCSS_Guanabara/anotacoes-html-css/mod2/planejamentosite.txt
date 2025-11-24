@@ -1,0 +1,4 @@
+    Ferramentas para planejar o site:
+- mockflow
+- dafont e google fonts
+- adobe color
