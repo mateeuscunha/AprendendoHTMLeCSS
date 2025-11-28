@@ -1,11 +1,10 @@
-body {
-    background-color: lightgreen;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-main {
-    background-color: white;
-    margin: 1px 100px;
-    padding: 10px;
+body {
+    background-color: lightgreen;
 }
 
 header {
@@ -26,11 +25,23 @@ nav > a {
     padding: 11px;
 }
 
-h4 {
-    background-color: green;
-    color: white;
-    border-radius: 10px 0px;
-    padding: 10px;
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 800px;   
+}
+
+img#bugdroid {
+    max-width: 300px;
+}
+
+img {
+   width: 100%;
+}
+
+iframe {
+    width: 100%;
+    margin: auto;
 }
 
 section#extra {
@@ -38,11 +49,11 @@ section#extra {
     border-radius: 10px;
 }
 
-iframe {
-    width: 100%;
-    border-width: 10px;
-    border-style: solid; 
-    border-color: green;
+h4 {
+    background-color: green;
+    color: white;
+    border-radius: 10px 0px;
+    padding: 10px;
 }
 
 footer {
