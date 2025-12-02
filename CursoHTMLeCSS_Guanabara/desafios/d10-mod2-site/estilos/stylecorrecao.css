@@ -87,7 +87,7 @@ nav > a:hover {
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 850px;
     margin: auto;
     margin-bottom: 30px; /*Margem embaixo, para separar do footer*/
     padding: 20px;
@@ -105,6 +105,35 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px 15px 0px; /*15px em cima e embaixo, 0px dos lados*/
+    text-align: justify;
+    text-indent: 30px; /*TAB antes de inicar o parágrafo*/
+    line-height: 1.7em; /*Espaçamento entre linhas*/
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor0);
+    padding: 2px 5px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor2);
 }
 
 main img {
@@ -112,7 +141,7 @@ main img {
 }
 
 main img.pequena {
-    width: 44%;
+    max-width: 350px;
     display: block; /*a imagem não é um bloco por padrão*/
     margin: auto; /*por isso o margin auto não funcionaria sem o display block*/
 }
