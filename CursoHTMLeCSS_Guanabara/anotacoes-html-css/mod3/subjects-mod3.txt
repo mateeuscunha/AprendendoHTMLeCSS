@@ -1,0 +1,6 @@
+    O que nós vamos aprender:
+- Hospedar sites
+- Versionamento 
+- Parte visual: imagens de fundo
+- Projeto "Cordel"
+- Tabelas
