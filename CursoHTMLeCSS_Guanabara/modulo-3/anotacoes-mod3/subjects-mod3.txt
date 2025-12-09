@@ -1,5 +1,5 @@
     O que nós vamos aprender:
-- Hospedar sites
+- Hospedar sites (gratuitamente: GitHub Pages)
 - Versionamento 
 - Parte visual - imagens de fundo
 - Projeto "Cordel"
