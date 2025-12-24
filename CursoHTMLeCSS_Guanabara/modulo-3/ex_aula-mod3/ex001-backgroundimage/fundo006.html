@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 96vh;
@@ -12,11 +12,18 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover; /*contain - imagem será 100% exibida; cover - cobrir a tela inteira mesmo que precise picotar a imagem*/
+            background-attachment: fixed; /*attachment = vínculo*/  
+            
+            /*
+            shorthand - background
+            color > image > position > repeat > [size] > attachment
+            background: black url(imagens/wallpaper002.jpg) center top cover fixed;
+            */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px; /*interessante para a responsiveness*/
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +34,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et eligendi qui animi asperiores similique nobis nulla, incidunt vel nihil cupiditate minima saepe deserunt rerum eaque laborum? Sunt, iure officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellat, magni velit, nisi consequuntur tempore veniam amet dignissimos aperiam rem magnam! Repellendus magni voluptate maiores ratione unde rem repudiandae culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eum fugiat, consequatur, odio adipisci voluptatibus ullam exercitationem cupiditate aspernatur quibusdam corporis perferendis omnis nihil ipsa autem praesentium aliquid itaque esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et eligendi qui animi asperiores similique nobis nulla, incidunt vel nihil cupiditate minima saepe deserunt rerum eaque laborum? Sunt, iure officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellat, magni velit, nisi consequuntur tempore veniam amet dignissimos aperiam rem magnam! Repellendus magni voluptate maiores ratione unde rem repudiandae culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eum fugiat, consequatur, odio adipisci voluptatibus ullam exercitationem cupiditate aspernatur quibusdam corporis perferendis omnis nihil ipsa autem praesentium aliquid itaque esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et eligendi qui animi asperiores similique nobis nulla, incidunt vel nihil cupiditate minima saepe deserunt rerum eaque laborum? Sunt, iure officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellat, magni velit, nisi consequuntur tempore veniam amet dignissimos aperiam rem magnam! Repellendus magni voluptate maiores ratione unde rem repudiandae culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eum fugiat, consequatur, odio adipisci voluptatibus ullam exercitationem cupiditate aspernatur quibusdam corporis perferendis omnis nihil ipsa autem praesentium aliquid itaque esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et eligendi qui animi asperiores similique nobis nulla, incidunt vel nihil cupiditate minima saepe deserunt rerum eaque laborum? Sunt, iure officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellat, magni velit, nisi consequuntur tempore veniam amet dignissimos aperiam rem magnam! Repellendus magni voluptate maiores ratione unde rem repudiandae culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eum fugiat, consequatur, odio adipisci voluptatibus ullam exercitationem cupiditate aspernatur quibusdam corporis perferendis omnis nihil ipsa autem praesentium aliquid itaque esse.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et eligendi qui animi asperiores similique nobis nulla, incidunt vel nihil cupiditate minima saepe deserunt rerum eaque laborum? Sunt, iure officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellat, magni velit, nisi consequuntur tempore veniam amet dignissimos aperiam rem magnam! Repellendus magni voluptate maiores ratione unde rem repudiandae culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eum fugiat, consequatur, odio adipisci voluptatibus ullam exercitationem cupiditate aspernatur quibusdam corporis perferendis omnis nihil ipsa autem praesentium aliquid itaque esse.</p> <!--O problema é que se tiver muito conteúdo, gera uma rolagem no eixo y, e a imagem acaba (se no-repeat) ou repete (se repeat), na próxima aula vou aprender como resolver isso.-->
     </main>
 </body>
