@@ -1,0 +1,16 @@
+@charset "UTF-8";  /*Configuração de caracteres*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); /*adicionando fonte Passion One*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');   /*adicionando fonte Sriracha*/
+
+:root {
+    --fonte-poesia: "Sriracha", cursive;
+    --fonte-header: "Passion One", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
