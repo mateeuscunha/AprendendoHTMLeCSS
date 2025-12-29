@@ -7,11 +7,18 @@
 :root {
     --fonte-poesia: "Sriracha", cursive;
     --fonte-header: "Passion One", cursive;
+    --fonte-default: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-default);
+    font-size: 1em;
+    background-color: darkgray;
 }
 
 header {
@@ -28,15 +35,15 @@ header > h1 {
 }
 
 header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte-default);
     padding-bottom: 50px;
+    font-size: 1em;
 }
 
 header > p > a {
     font-weight: bolder;
     text-decoration: none;
     color: white;
-    
 }
 
 header a:hover {
