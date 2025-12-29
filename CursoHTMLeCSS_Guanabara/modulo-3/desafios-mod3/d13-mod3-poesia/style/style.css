@@ -6,7 +6,7 @@
 
 :root {
     --fonte-poesia: "Sriracha", cursive;
-    --fonte-header: "Passion One", sans-serif;
+    --fonte-header: "Passion One", cursive;
 }
 
 * {
@@ -14,3 +14,31 @@
     padding: 0px;
 }
 
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    font-family: var(--fonte-header);
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+header > p > a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    
+}
+
+header a:hover {
+    text-decoration: underline;
+}
