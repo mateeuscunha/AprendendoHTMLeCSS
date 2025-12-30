@@ -49,3 +49,15 @@ header > p > a {
 header a:hover {
     text-decoration: underline;
 }
+
+
+
+main pre {
+    font-family: var(--fonte-poesia);
+    font-size: 3em;
+    padding: 61.700px 0px 61.700px 30px;;
+}
+
+main article.branco {
+    background-color: white;
+}
