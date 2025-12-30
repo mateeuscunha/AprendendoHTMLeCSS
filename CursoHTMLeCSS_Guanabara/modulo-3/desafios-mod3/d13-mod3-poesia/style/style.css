@@ -50,14 +50,26 @@ header a:hover {
     text-decoration: underline;
 }
 
-
-
 main pre {
     font-family: var(--fonte-poesia);
     font-size: 3em;
-    padding: 61.700px 0px 61.700px 30px;;
+    padding: 61.700px 0px 61.700px 30px;
 }
 
 main article.branco {
     background-color: white;
+}
+
+main article#joaninha {
+    background-image: url(../imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+main article#folha {
+    background: darkgray url(../imagens/background002.jpg) center center fixed;
+    background-size: cover;
+    /*color > image > position > [size] > attachment*/
 }
