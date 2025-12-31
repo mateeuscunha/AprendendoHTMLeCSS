@@ -73,3 +73,20 @@ main article#folha {
     background-size: cover;
     /*color > image > position > [size] > attachment*/
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
