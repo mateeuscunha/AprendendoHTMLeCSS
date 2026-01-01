@@ -50,9 +50,10 @@ header a:hover {
     text-decoration: underline;
 }
 
-main pre {
+main p {
     font-family: var(--fonte-poesia);
-    font-size: 3em;
+    font-size: 3.5vw;
+    line-height: 2em;
     padding: 61.700px 0px 61.700px 30px;
 }
 
