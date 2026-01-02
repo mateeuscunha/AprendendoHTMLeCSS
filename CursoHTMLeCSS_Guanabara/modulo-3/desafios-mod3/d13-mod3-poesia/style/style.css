@@ -54,11 +54,20 @@ main p {
     font-family: var(--fonte-poesia);
     font-size: 3.5vw;
     line-height: 2em;
-    padding: 61.700px 0px 61.700px 30px;
+}
+
+main article {
+    padding: 10vh 30px;
 }
 
 main article.branco {
     background-color: white;
+}
+
+main article.imagem p {
+    padding: 5px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.514);
 }
 
 main article#joaninha {
@@ -67,11 +76,14 @@ main article#joaninha {
     background-position: center center;
     background-size: cover;
     color: white;
+    padding: 10vh 30px;
 }
 
 main article#folha {
     background: darkgray url(../imagens/background002.jpg) center center fixed;
     background-size: cover;
+    color: white;
+    padding: 10vh 30px;
     /*color > image > position > [size] > attachment*/
 }
 
