@@ -40,13 +40,13 @@ header > p {
     font-size: 1em;
 }
 
-header > p > a {
+a {
     font-weight: bolder;
     text-decoration: none;
     color: white;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -72,7 +72,7 @@ main article.imagem p {
 
 main article#joaninha {
     background-image: url(../imagens/background001.jpg);
-    background-attachment: fixed;
+       background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     color: white;
@@ -92,14 +92,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
