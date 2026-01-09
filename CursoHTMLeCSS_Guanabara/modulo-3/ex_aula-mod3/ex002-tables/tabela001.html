@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 70vw;
+            border-collapse: collapse; /*O valor padrão é separate, as linhas da tabela ficam espaçadas*/
+        }
+
+        tr.linha {
+            background-color: darkgray;
+        }
+
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.dado {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        HIERARQUIA DE TABELAS (SIMPLES)
+    TABLE = tabela
+        TABLE ROW (tr) = linha da tabela
+            TABLE HEADER = cabeçalho de tabela
+            TABLE DATA (td) = dado de tabela
+    -->
+    <table>
+        <tr class="linha"> <!--primeira linha-->
+            <td>A1</td> <!--primeiro dado-->
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="linha">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td class="dado">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
