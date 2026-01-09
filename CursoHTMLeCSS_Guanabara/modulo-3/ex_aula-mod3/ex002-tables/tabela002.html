@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 70vw;
+            height: 60vh;
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background-color: darkgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            min-width: 20px;
+            padding: 10px;
+        }
+        
+        td.colocacao {
+            background-color: darkgray;
+            text-align: center;
+        }
+
+        tfoot {
+            background-color: darkgray;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+    ANATOMIA DE TABELAS GRANDES
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH 
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Unidade federativa</th>
+                <th>População</th>
+                <th>% da pop. total</th>
+                <th>País comprável (habitantes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="colocacao">1</td>
+                <td>São Paulo</td>
+                <td class="num">46 081 801</td>
+                <td class="num">21.59%</td>
+                <td>Argentina (45 851 378)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">2</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441</td>
+                <td class="num">10,02%</td>
+                <td>Chade (21 003 705)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547</td>
+                <td class="num">8,07%</td>
+                <td>Zimbabwe (16 950 795)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">4</td>
+                <td>Bahia</td>
+                <td class="num">14 870 907</td>
+                <td class="num">6,97%</td>
+                <td>Benim (14 814 460)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">5</td>
+                <td>Paraná</td>
+                <td class="num">11 890 517</td>
+                <td class="num">5,57%</td>
+                <td>Haiti (11 906 095)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 233 263</td>
+                <td class="num">5,26%</td>
+                <td>Emirados Árabes Unidos (11 346 000)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">7</td>
+                <td>Pernambuco</td>
+                <td class="num">9 562 007</td>
+                <td class="num">4,48%</td>
+                <td>Israel (9 517 181)</td>
+            </tr>
+            <tr>
+                <td class="colocacao">8</td>
+                <td>Ceará</td>
+                <td class="num">9 268 836</td>
+                <td class="num">4,34%</td>
+                <td>Áustria (9 113 574)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+        <th colspan="2"><strong>TOTAL</strong></th>
+        <td class="num"><strong>141.524.319</strong></td>
+        <td class="num"><strong>66,3%</strong></td>
+        <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
