@@ -32,7 +32,7 @@
             background-color: darkgray;
         }
 
-        td, th {
+        td, th { /*Difference between th e td: th - data title; td - data itself*/
             border: 1px solid black;
             min-width: 20px;
             padding: 10px;
@@ -70,8 +70,8 @@
         <thead>
             <tr>
                 <th></th>
-                <th>Unidade federativa</th>
-                <th>População</th>
+                <th scope="col">Unidade federativa</th> <!--scope col quer dizer que é um th que os dados seguem na COLuna-->
+                <th scope="col">População</th>
                 <th>% da pop. total</th>
                 <th>País comprável (habitantes)</th>
             </tr>
@@ -136,8 +136,8 @@
         </tbody>
         <tfoot>
             <tr>
-        <th colspan="2"><strong>TOTAL</strong></th>
-        <td class="num"><strong>141.524.319</strong></td>
+        <th scope="row" colspan="2"><strong>TOTAL</strong></th> <!--colspan 2 é pra ocupar 2 casas--> 
+        <td class="num"><strong>141.524.319</strong></td> <!--scope row quer dizer que o dado do th segue na linha(row)-->
         <td class="num"><strong>66,3%</strong></td>
         <td></td>
             </tr>
