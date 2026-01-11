@@ -31,6 +31,10 @@
         thead {
             background-color: darkgray;
         }
+        
+        tbody > tr:nth-child(2n) { /*pseudoclass to zebra effect -- even(2n) / odd(2n-1) or 2n, 3n*/
+            background-color: lightgray;
+        }
 
         td, th { /*Difference between th e td: th - data title; td - data itself*/
             border: 1px solid black;
