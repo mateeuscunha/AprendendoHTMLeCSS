@@ -1,2 +1,2 @@
-# AprendendoHTMLeCSS
-Material das aulas e exercícios do curso de HTML com CSS.
+# Learning HTML and CSS
+Material from HTML/CSS classes and exercises.
