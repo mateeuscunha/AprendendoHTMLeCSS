@@ -1,0 +1,61 @@
+	MARKDOWN
+
+- Negrito: **isto está em negrito**
+	   __isto também está em negrito__
+
+- Itálico: *isto está em itálico*
+	   _isto também está em itálico_
+
+- Riscado: ~isto está riscado~
+
+
+- Título: # isto é um título
+- Título nível 2: # isto é um título nível 2
+- Título nível 3: # isto é um título nível 3
+
+
+- Linha: *** ou ---
+
+- Podemos misturar: __*itálico com negrito*__
+		    ~*itálico riscado*~
+
+- Lista numerada: 1. item 1
+		  2. item 2
+		  3. item 3
+		     4. subitem de item 3 (devido aos três espaços)
+		  5. item 4
+
+
+- Lista demarcada: * item
+		   * item
+		      * subitem
+		   * item
+
+- Lista de tarefas: - [] tarefa não concluída
+		    - [] tarefa não concluída
+		    - [x] tarefa concluída
+
+
+
+- Tabela: 
+
+Número | Nome | Nota
+---|---|---|
+1 | Mateus | 8.0
+2 | Silvana | 9.0
+3 | Marcus | 7.0
+
+- Código: ´document.getElementById()´
+
+- Programa: 
+
+```
+num = int(input('Digite um valor: '))
+if num % 2 == 0:
+   print(f'O valor {num} é par')
+else:
+   print(f'O valor {num} é ímpar')
+
+```
+
+- Emoji: Usar os dois pontos
