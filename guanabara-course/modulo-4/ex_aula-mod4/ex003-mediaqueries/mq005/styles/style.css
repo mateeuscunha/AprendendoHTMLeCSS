@@ -19,8 +19,22 @@ header > h1 {
     padding: 10px;
 }
 
-menu {
+i#burguer {
+    background-color: rgb(38, 34, 34);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /*vira maozinha, em vez de cursor de field*/
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
