@@ -1,0 +1,2 @@
+- Sempre colocar a propriedade do flex-box no elemento pai.
+- Saber o que é o flex-container (elemento pai com o display flexbox) e os flex-items (elementos filhos que vão sofrer alteração, devido à modalidade flexbox).
