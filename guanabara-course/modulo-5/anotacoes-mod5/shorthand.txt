@@ -1,0 +1,20 @@
+The shortcut for flexbox is the flex-flow
+
+flex-flow = flex-direction + flex-wrap
+------------ row	    - nowrap
+------------ row-reverse    - wrap
+------------ column	    - wrap-reverse
+------------ column-reverse -
+
+if the settings are:
+
+	div {
+		flex-direction: row;
+		flex-wrap: nowrap:
+	}
+
+is the same as:
+
+	div {
+		flex-flow: row nowrap;
+	}

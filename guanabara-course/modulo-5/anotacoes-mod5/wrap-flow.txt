@@ -1,0 +1,5 @@
+Wrap is like a packing, the property in CSS flexbox is flex-wrap.
+
+- flex-wrap: nowrap; --- default set - never broke
+- flex-wrap: wrap; --- send an element to next line in the cross-axis direction
+- flex-wrap: wrap-reverse; --- broke in the oposite of the cross-axis direction
