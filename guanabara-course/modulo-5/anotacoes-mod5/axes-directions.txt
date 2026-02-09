@@ -1,0 +1,38 @@
+Axis or Axes are the two axle (X and Y)
+
+Flex-direction is applyied just in the father element.
+-flex-direction: row; --- elements in a row: left to right
+-flex-direction: row-reverse; --- right to left
+-flex-direction: column; --- elemnts in a column: top to bottom
+-flex-direction: column-reverse; --- bottom to top
+
+
+Now, speaking about Axis...
+
+Considering first the default set: flex-direction: row;
+
+main-axis --- start on main-start and end on main-end
+cross-axis (eixo transversal) --- cross-start and cross-end
+
+The position of the main and the cross axis switch depending the flex-direction set.
+
+ ------------------------------------
+
+ ROW
+main-axis: left to right
+cross-axis: top to bottom
+
+ ROW-REVERSE
+main-axis: right to left
+cross-axis: top to bottom
+
+ COLUMN
+main-axis: top to bottom
+cross-axis: left to right
+
+ COLUMN-REVERSE
+main-axis: bottom to top
+cross-axis: left to right
+
+
+ ------------------------------------
