@@ -1,0 +1,23 @@
+To align in the main-axis we can use justify-content.
+
+- justify-content: flex-start; --- the first item stick on the main-start and the white space will be near to the main-end
+
+- justify-content: flex-end; --- the last item stick on the main-end and the white space will be near to the main-start
+
+- justify-content: center; --- it caulculate to be the same white space near to main-start as near to main-end
+
+- justify-content: space-between; --- first item in the main-start and the last item in the main-end. the others one will be distributed in the middle
+
+- justify-content: space-evenly; --- all items will have the same space between them, not sticking in the main-start or main-end.
+
+- justify-content: space-around; --- in this case, all the .container will be divided by the number of itens. in each space, after the division, it will be positionaded in the center the items.
+
+To align in the cross-axis we can use align-items
+
+- align-items: strech; --- "esticar" if you grow the cross-axis, increasing the distance of cross-start and cross-end, the items will be streched.
+
+- align-items: flex-start; --- it stick the items on the cross-start.
+
+- align-items: flex-end; --- it stick the items on the cross-end.
+
+- align-items: center; --- the items will be in the middle of the cross-axis.
