@@ -1,0 +1,24 @@
+ALIGN-CONTENT   !=   JUSTIFY-CONTENT
+
+The align-content align content when the cross-axis is increased (it necessary have to involve wrapped elements).
+
+Justify-content: main-axis
+Align-items: cross-axis
+Align-content: cross-axis, but with wrapped elements
+
+
+/*thats all about wrapped (broken) elements*/
+
+- align-content: stretch; --- divide all the space (of the cross-axis) in the number of rows broked. then, put all the elements in it and strech them. -- default value
+
+- align-content: flex-start; --- it stick all the elements near to the cross-start. 
+
+- align-content: flex-end; --- it stick all the elements near to the cross-end.
+
+- align-content: center; --- it calculate to position the elements broked in the middle of the cross-axis.
+
+- align-content: space-between; --- pick the first row and stick near to the cross-start, the last row it puts in the cross-end. so, if still remaining elements, they will be in the middle.
+
+- align-content: space-evenly; --- the same space between the elements and the crosses (start and end).
+
+- align-content: space-around; --- divide the cross-axis in the number of rows of content, so put in the middle of these divisions the elements itself.
