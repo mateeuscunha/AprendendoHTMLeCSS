@@ -1,0 +1,16 @@
+ Property order:
+All flex-items has order = 0 by default.
+If you want to change the order, just put in the numeric order.
+
+ Property align-self:
+Is about the flex-items, and it is related to the cross
+
+- align-self: auto; -- get the father's alignment (align-content or align-item)
+
+- align-self: flex-start; -- alignment near to the cross-start
+
+- align-self: flex-end; -- alignment near to the cross-end
+
+- align-self: center; -- caluculate the center
+
+- align-self: stretch; -- it will fill all the size
