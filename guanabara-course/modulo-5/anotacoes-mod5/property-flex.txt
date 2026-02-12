@@ -1,0 +1,23 @@
+ Flex is a property to flex-items, never in the container
+flex = flex-grow + flex-shrink + flex-basis ---- in this order
+
+
+Same values in different ways:
+
+	===============
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	===============
+	flex: 0 1 150px
+
+
+Some patterns:
+
+flex: 0 1 auto; === flex: initial; === any declaration
+
+flex: 0 0 auto; === flex: none; --- min flexibless
+
+flex: 1 1 auto; === flex: auto; --- max flexibless
+
+flex: 3; === flex: 3 1 auto; --- the first is the value you wrote in the declaration, the other will be the default.
