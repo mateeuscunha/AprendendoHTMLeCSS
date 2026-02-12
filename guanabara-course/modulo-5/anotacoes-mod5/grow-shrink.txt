@@ -1,0 +1,10 @@
+Pode encolher? flex-shrink
+Pode aumentar? flex-grow
+
+default values: 
+- flex-shrink: 1; - it means yes, it can shrink.
+- flex-grow: 0; - it means no, it cannot grow.
+
+
+ What happen if I put numbers different than 0 or 1?
+They will grow or shrink proportionally to the value.
