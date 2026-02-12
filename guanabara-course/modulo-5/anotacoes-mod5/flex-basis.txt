@@ -1,4 +1,3 @@
 The default of flex-basis is "auto"
-It can be applyed in the .container or in the .item
 
-- flex-basis: 200px; -- each element will have 200px while he can.
+- flex-basis: 200px; -- the element will have 200px while he can.
