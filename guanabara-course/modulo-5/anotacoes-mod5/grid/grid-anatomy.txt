@@ -11,3 +11,7 @@ There is a row track or a column track
     Grid lines could be vertical or horizontal.
  The grid lines vertical are ordered by left to the right. The leftmost (the first) line is the "1".
  The horizontal grid lines are sorted by top to the bottom. The topmost is the "1".
+
+Grid gap is the space between the items
+
+Grid area is some grid items along.

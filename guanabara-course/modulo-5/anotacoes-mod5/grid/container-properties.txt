@@ -1,0 +1,26 @@
+  Some grid container properties: 
+
+- display
+- grid-template-columns
+- grid-template-rows
+- grid-gap
+
+
+<style>
+	.container {
+            	display: grid;
+          	grid-template-columns: auto auto auto;
+            	grid-template-rows: 100px 100px 100px;
+            	gap: 20px;
+        	}
+</style>
+
+<div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+</div>
