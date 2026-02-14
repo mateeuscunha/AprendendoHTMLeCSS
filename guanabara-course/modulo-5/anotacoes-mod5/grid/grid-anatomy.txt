@@ -1,0 +1,13 @@
+A grid is a "gradiado"
+
+grid-row != grid-line
+
+ All is in the grid container
+There are grid items. They are the small squares in the grid.
+
+A bunch of grid items in a row or in a column is called grid track.
+There is a row track or a column track
+
+    Grid lines could be vertical or horizontal.
+ The grid lines vertical are ordered by left to the right. The leftmost (the first) line is the "1".
+ The horizontal grid lines are sorted by top to the bottom. The topmost is the "1".
