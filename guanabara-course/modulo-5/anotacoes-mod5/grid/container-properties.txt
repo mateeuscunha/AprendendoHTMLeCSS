@@ -25,7 +25,7 @@
         <div class="item">G</div>
 </div>
 
-
+ ---------------------------------------------------------------
   Some other ones:
 
 - align-items
@@ -52,10 +52,10 @@ end -- stick the item in the end, right side
 
 
  align-content: (all vertical)
-start -- the top, default value
+start -- the top
 center -- verticaly
 end -- put in the bottom
-stretch -- stretch it
+stretch -- stretch it, default
 
 space-between -- put the first row in the top, the last row in the bottom, the remainings will be distribute equally in the middle
 
@@ -65,10 +65,56 @@ space-around -- spaces between items will be the double of the space between the
 
 
  justify-content: (all horizontal)
-start -- default value, in the left
+start -- in the left
 center -- horizontally
 end -- the right side
-stretch -- strecth horizontally
+stretch -- strecth horizontally, default
 space-between -- the same as align content, but horizontally
 space-evenly -- the same as align content, but horizontally
 space-around -- the same as align content, but horizontally
+
+---------------------------------------------------------------
+
+ Some other ones:
+
+- grid-auto-row
+- grid-auto-column
+- place-items (shorthand)
+- place-content (shorthand)
+- grid-template (shorthand)
+
+
+ grid-auto-row: 
+If any row is added, the it will get the "grid-auto-row" set.
+
+ grid-auto-column: 
+If any row is added, the it will get the "grid-auto-column" set.
+
+ place-items:
+place-items = align-items + justify-items
+
+ place-content:
+place-content = align-content + justify-content
+
+ grid-template:
+grid-template = grid-template-rows + "/" + grid-template-columns
+
+---------------------------------------------------------------
+
+ Some others:
+
+- repeat()
+- fraction
+
+
+ repeat(): 
+For example:
+
+grid-template-columns: auto auto auto;
+	/* is the same as */
+grid-template-columns: repeat(3, auto);
+
+
+
+ fraction: 
+It calculate in fractions. 1fr 1fr 1fr of a container with 1500px is the same as 500px 500px 500px
