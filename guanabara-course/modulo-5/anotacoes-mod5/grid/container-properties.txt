@@ -24,3 +24,51 @@
         <div class="item">F</div>
         <div class="item">G</div>
 </div>
+
+
+  Some other ones:
+
+- align-items
+- justify-items
+- align-content
+- justify-content
+
+align (vertical), justify (horizontal)
+items (each item), content (all items, the group)
+
+
+ align-items: (all vertical)
+stretch -- default
+start -- stick in the start of the rows, top
+center -- put in the middle
+end -- put in the end, bottom 
+
+ justify-items: (all horizontal)
+stretch -- default, strech the item
+start -- stick in the start of the columns, in the left
+center -- put it in the middle
+end -- stick the item in the end, right side
+
+
+
+ align-content: (all vertical)
+start -- the top, default value
+center -- verticaly
+end -- put in the bottom
+stretch -- stretch it
+
+space-between -- put the first row in the top, the last row in the bottom, the remainings will be distribute equally in the middle
+
+space-evenly -- all spaces will be the same (between items and 	between the limit)
+
+space-around -- spaces between items will be the double of the space between the ends items and the limit
+
+
+ justify-content: (all horizontal)
+start -- default value, in the left
+center -- horizontally
+end -- the right side
+stretch -- strecth horizontally
+space-between -- the same as align content, but horizontally
+space-evenly -- the same as align content, but horizontally
+space-around -- the same as align content, but horizontally
