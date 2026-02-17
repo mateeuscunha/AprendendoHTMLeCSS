@@ -1,0 +1,33 @@
+ Some item properties:
+
+- grid-row-start
+- grid-row-end
+- grid-column-start
+- grid-column-end
+
+
+To use this properties we need to imagine that we are drawing a box to select the area we want.
+
+ Some others ones:
+
+- span
+- grid-row (shorthand)
+- grid-column (shorthand)
+- grid-area (shorthand)
+
+
+ span: 
+We can use the span to say how many columns or rows it will fill. Like, span 2 = starts in the first line and ends in the third, for example. We need to use it in the grid-column-end or in the grid-row-end.
+
+ grid-row:
+grid-row = grid-row-start + "/" + grid-row-end
+
+ grid-column:
+grid-column = grid-column-start + "/" + grid-column-end
+
+*If we put just one value in this properties, it will mean that starts in this value and ends in the right next value. Like, grid-row: 1; --- Starts in "1" and ends in "2".
+
+ grid-area:
+grid-area = grid-row + grid-column
+CARE WITH THE ORDER:
+row-start > column-start > row-end > column-end 
