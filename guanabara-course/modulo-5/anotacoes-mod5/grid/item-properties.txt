@@ -31,3 +31,33 @@ grid-column = grid-column-start + "/" + grid-column-end
 grid-area = grid-row + grid-column
 CARE WITH THE ORDER:
 row-start > column-start > row-end > column-end 
+
+
+---------------------------------------------------------------
+
+	1 box in 3 differents way to write:
+
+COMPLETE: 
+
+.caixa {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 3;
+}
+
+SHORT:
+
+.caixa {
+    grid-row: 1 / 4;
+    grid-column: 1 / 3;
+}
+
+SHORTER:
+
+.caixa {
+    grid-area: 1 / 1 / 4 / 3;
+}
+
+
+---------------------------------------------------------------
