@@ -17,11 +17,12 @@ body {
 
     width: 800px;
     min-height: 600px;
-    text-align: center;
 }
 
 .container > * {
     background-color: rgb(245, 211, 138);
+    display: grid;
+    place-items: center;
 }
 
 header {
